@@ -22,7 +22,7 @@ public class fileUpload {
             WebDriver driver = new ChromeDriver(chromeOptions);
             driver.get("http://demo.automationtesting.in/Register.html");
 
-            //Thread.sleep(2000);
+            Thread.sleep(2000);
        //driver.findElement(By.xpath ("/html/body/section/div/div/div[3]/div[2]/input")).click();
 
             Actions actions = new Actions(driver);
